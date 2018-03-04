@@ -1,0 +1,76 @@
+body { 
+  background: url(https://cdn.pixabay.com/photo/2017/12/11/13/24/interior-3012218_960_720.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: #023537;
+  font-family: 'PT Serif', serif;
+} 
+
+#scrolly {
+  width: 99%;
+  height: 400px;
+  overflow: auto;
+  overflow-y: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+img {
+  height: 380px;
+  margin: 20px 10px;
+  display: inline;
+}
+
+#home {
+  padding: 330px 0 270px 0;
+}
+
+.navbar-inverse {
+  border-color: #080808;
+  padding: 10px 10px;
+  background: #ffffff;
+  text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #adaaaa;
+}
+
+#portfolio {
+  background-color: #ffffff;
+}
+
+#question {
+  padding: 100px 0 25px 0;
+}
+
+p { 
+  text-align: left;
+}
+
+#about {
+  background: white;
+  padding: 100px 0 100px 0;
+  margin-top: 20px;
+  color: #9f9e9e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  display: block;
+}
+
+#aboutImage {
+  padding-top: 0;
+}
+
+p:first-of-type {
+  padding-top: 20px;
+}
+
+ul.nav a:hover { 
+  color: black !important; 
+}
