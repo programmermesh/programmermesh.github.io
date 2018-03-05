@@ -5,8 +5,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
-  color: #0decdb;
+  color: #f4f0f0;
   font-family: 'PT Serif', serif;
+  overflow-x: hidden;
 } 
 
 #scrolly {
@@ -40,7 +41,7 @@ img {
 }
 
 #portfolio {
-  background-color: #ffffff;
+  background-color: #8f8d86c9;
 }
 
 #question {
@@ -49,6 +50,8 @@ img {
 
 p { 
   text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #about {
@@ -71,6 +74,6 @@ p:first-of-type {
   padding-top: 20px;
 }
 
-ul.nav a:hover { 
+a:hover { 
   color: black !important; 
 }
