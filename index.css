@@ -9,6 +9,10 @@ body {
   font-family: 'PT Serif', serif;
 } 
 
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body { background-image: url(https://dl.dropbox.com/s/tuy25m5nwwbb66w/8.jpg?dl=0)}
+}
+
 #scrolly {
   width: 98%;
   height: 400px;
