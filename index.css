@@ -9,8 +9,17 @@ body {
   font-family: 'PT Serif', serif;
 } 
 
-@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  body { background-image: url(https://dl.dropbox.com/s/tuy25m5nwwbb66w/8.jpg?dl=0)}
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+  .body {
+    background: #FFFFFF url(https://dl.dropbox.com/s/i86v0x2oyc8cd9p/medium.jpg?dl=0);
+  }
+}
+
+
+@media screen and (max-width: 399px) {
+  .body {
+    background: #FFFFFF url(https://dl.dropbox.com/s/i86v0x2oyc8cd9p/medium.jpg?dl=0);
+  }
 }
 
 #scrolly {
