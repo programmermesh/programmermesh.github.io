@@ -26,7 +26,8 @@ img {
 }
 
 #home {
-  padding: 330px 0 270px 0;
+  padding-top: 330px;
+  padding-bottom: 270px;
 }
 
 .navbar-inverse {
@@ -80,4 +81,9 @@ a:hover {
 
 .navbar-toggle {
     background-color: #646f6f;
+}
+
+.row { 
+  margin: 0; 
+  padding: 0 
 }
