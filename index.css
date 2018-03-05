@@ -9,18 +9,24 @@ body {
   font-family: 'PT Serif', serif;
 } 
 
-@media screen and (min-width: 400px) and (max-width: 1024px) {
+/*@media screen and (min-width: 400px) and (max-width: 1024px) {
   .body {
-    background: #FFFFFF url(https://dl.dropbox.com/s/i86v0x2oyc8cd9p/medium.jpg?dl=0);
+    background: url(https://www.google.no/imgres?imgurl=https%3A%2F%2Fget.pxhere.com%2Fphoto%2Fnature-blossom-plant-photography-leaf-flower-petal-pollen-green-high-insect-small-canon-botany-butterfly-flora-fauna-invertebrate-wildflower-close-up-eos-copper-5d-common-hires-markii-nectar-hi-res-resolution-macro-photography-lycaena-phlaeas-honey-bee-plant-stem-moths-and-butterflies-377592.jpg&imgrefurl=https%3A%2F%2Fpxhere.com%2Fen%2Fphoto%2F377592&docid=YWKs6MpYDMcKFM&tbnid=XkVYOGMk4XWFLM%3A&vet=10ahUKEwin9se5xtXZAhUHXSwKHUKFB8MQMwhLKAUwBQ..i&w=2170&h=2170&itg=1&bih=700&biw=1366&q=small%20resolution%20images&ved=0ahUKEwin9se5xtXZAhUHXSwKHUKFB8MQMwhLKAUwBQ&iact=mrc&uact=8);
+  }
+}*/
+
+@media handheld, screen and (max-width: 500px) { 
+  .body {
+    background: url(https://www.google.no/imgres?imgurl=https%3A%2F%2Fget.pxhere.com%2Fphoto%2Fnature-blossom-plant-photography-leaf-flower-petal-pollen-green-high-insect-small-canon-botany-butterfly-flora-fauna-invertebrate-wildflower-close-up-eos-copper-5d-common-hires-markii-nectar-hi-res-resolution-macro-photography-lycaena-phlaeas-honey-bee-plant-stem-moths-and-butterflies-377592.jpg&imgrefurl=https%3A%2F%2Fpxhere.com%2Fen%2Fphoto%2F377592&docid=YWKs6MpYDMcKFM&tbnid=XkVYOGMk4XWFLM%3A&vet=10ahUKEwin9se5xtXZAhUHXSwKHUKFB8MQMwhLKAUwBQ..i&w=2170&h=2170&itg=1&bih=700&biw=1366&q=small%20resolution%20images&ved=0ahUKEwin9se5xtXZAhUHXSwKHUKFB8MQMwhLKAUwBQ&iact=mrc&uact=8);
   }
 }
 
 
-@media screen and (max-width: 399px) {
+/*@media screen and (max-width: 399px) {
   .body {
-    background: #FFFFFF url(https://dl.dropbox.com/s/i86v0x2oyc8cd9p/medium.jpg?dl=0);
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqsnK-A60-q4Ez4Or_z-wV8X-vSmETOLMhAqE8XNu6rAhDA8XnCQ);
   }
-}
+}*/
 
 #scrolly {
   width: 98%;
