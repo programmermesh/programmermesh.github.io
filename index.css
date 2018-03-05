@@ -7,11 +7,10 @@ body {
   text-align: center;
   color: #f4f0f0;
   font-family: 'PT Serif', serif;
-  overflow-x: hidden;
 } 
 
 #scrolly {
-  width: 99%;
+  width: 98%;
   height: 400px;
   overflow: auto;
   overflow-y: hidden;
@@ -21,7 +20,8 @@ body {
 
 img {
   height: 380px;
-  margin: 20px 10px;
+  margin-right: 20px;
+  margin-left: 10px;
   display: inline;
 }
 
@@ -76,4 +76,8 @@ p:first-of-type {
 
 a:hover { 
   color: black !important; 
+}
+
+.navbar-toggle {
+    background-color: #646f6f;
 }
