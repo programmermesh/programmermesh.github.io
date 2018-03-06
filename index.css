@@ -18,7 +18,7 @@ body {
 }
 
 /* For width 600px and larger: */
-@media only screen and (min-device-width: 786px) {
+@media only screen and (min-device-width: 900px) {
    #home {
       background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0) no-repeat center center fixed;
       padding-top: 330px;
