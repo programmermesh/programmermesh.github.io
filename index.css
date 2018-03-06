@@ -9,7 +9,7 @@ body {
   font-family: 'PT Serif', serif;
 } 
 
-/* For width smaller than 786px: */
+/* For width smaller than 600px: */
 body {
     background-repeat: no-repeat;
     background-image: url('https://dl.dropbox.com/s/mmeqpclbbzsxf3a/interior-3012237_640.jpg?dl=0'); 
@@ -20,8 +20,8 @@ body {
   padding-bottom: 130px;
 }
 
-/* For width 400px and larger: */
-@media only screen and (min-device-width: 786px) {
+/* For width 600px and larger: */
+@media only screen and (min-device-width: 600px) {
     body { 
       background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed;
       -webkit-background-size: cover;
