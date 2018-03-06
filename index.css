@@ -4,33 +4,23 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
+  background: white;
   text-align: center;
   color: #f4f0f0;
   font-family: 'PT Serif', serif;
 } 
 
 /* For width smaller than 600px: */
-body {
-    background-repeat: no-repeat;
-    background-image: url('https://dl.dropbox.com/s/i86v0x2oyc8cd9p/medium.jpg?dl=0'); 
-}
-
 #home {
-  padding-top: 150px;
+  padding-top: 250px;
   padding-bottom: 130px;
+  background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0) no-repeat center center fixed;
 }
 
 /* For width 600px and larger: */
-@media only screen and (min-device-width: 600px) {
-    body { 
-      background: url(https://dl.dropbox.com/s/i86v0x2oyc8cd9p/medium.jpg?dl=0) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover; 
-    }
-
-    #home {
+@media only screen and (min-device-width: 786px) {
+   #home {
+      background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0) no-repeat center center fixed;
       padding-top: 330px;
       padding-bottom: 270px;
     }
