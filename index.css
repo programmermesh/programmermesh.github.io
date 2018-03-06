@@ -1,32 +1,40 @@
 body { 
-  background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed; 
+  /*background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
   text-align: center;
   color: #f4f0f0;
   font-family: 'PT Serif', serif;
 } 
 
-/*@media screen and (min-width: 400px) and (max-width: 1024px) {
-  .body {
-    background: url(https://www.google.no/imgres?imgurl=https%3A%2F%2Fget.pxhere.com%2Fphoto%2Fnature-blossom-plant-photography-leaf-flower-petal-pollen-green-high-insect-small-canon-botany-butterfly-flora-fauna-invertebrate-wildflower-close-up-eos-copper-5d-common-hires-markii-nectar-hi-res-resolution-macro-photography-lycaena-phlaeas-honey-bee-plant-stem-moths-and-butterflies-377592.jpg&imgrefurl=https%3A%2F%2Fpxhere.com%2Fen%2Fphoto%2F377592&docid=YWKs6MpYDMcKFM&tbnid=XkVYOGMk4XWFLM%3A&vet=10ahUKEwin9se5xtXZAhUHXSwKHUKFB8MQMwhLKAUwBQ..i&w=2170&h=2170&itg=1&bih=700&biw=1366&q=small%20resolution%20images&ved=0ahUKEwin9se5xtXZAhUHXSwKHUKFB8MQMwhLKAUwBQ&iact=mrc&uact=8);
-  }
-}*/
-
-@media handheld, screen and (max-width: 500px) { 
-  .body {
-    background: url(https://www.google.no/imgres?imgurl=https%3A%2F%2Fget.pxhere.com%2Fphoto%2Fnature-blossom-plant-photography-leaf-flower-petal-pollen-green-high-insect-small-canon-botany-butterfly-flora-fauna-invertebrate-wildflower-close-up-eos-copper-5d-common-hires-markii-nectar-hi-res-resolution-macro-photography-lycaena-phlaeas-honey-bee-plant-stem-moths-and-butterflies-377592.jpg&imgrefurl=https%3A%2F%2Fpxhere.com%2Fen%2Fphoto%2F377592&docid=YWKs6MpYDMcKFM&tbnid=XkVYOGMk4XWFLM%3A&vet=10ahUKEwin9se5xtXZAhUHXSwKHUKFB8MQMwhLKAUwBQ..i&w=2170&h=2170&itg=1&bih=700&biw=1366&q=small%20resolution%20images&ved=0ahUKEwin9se5xtXZAhUHXSwKHUKFB8MQMwhLKAUwBQ&iact=mrc&uact=8);
-  }
+/* For width smaller than 786px: */
+body {
+    background-repeat: no-repeat;
+    background-image: url('https://dl.dropbox.com/s/mmeqpclbbzsxf3a/interior-3012237_640.jpg?dl=0'); 
 }
 
+#home {
+  padding-top: 150px;
+  padding-bottom: 130px;
+}
 
-/*@media screen and (max-width: 399px) {
-  .body {
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqsnK-A60-q4Ez4Or_z-wV8X-vSmETOLMhAqE8XNu6rAhDA8XnCQ);
-  }
-}*/
+/* For width 400px and larger: */
+@media only screen and (min-width: 786px) {
+    body { 
+      background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; 
+    }
+
+    #home {
+      padding-top: 330px;
+      padding-bottom: 270px;
+    }
+}
 
 #scrolly {
   width: 98%;
@@ -44,10 +52,6 @@ img {
   display: inline;
 }
 
-#home {
-  padding-top: 330px;
-  padding-bottom: 270px;
-}
 
 .navbar-inverse {
   border-color: #080808;
