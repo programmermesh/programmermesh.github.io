@@ -1,24 +1,19 @@
 body { 
-  /*background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
   background: white;
   text-align: center;
   color: #f4f0f0;
   font-family: 'PT Serif', serif;
 } 
 
-/* For width smaller than 600px: */
+/* For width smaller than 786px: */
 #home {
   padding-top: 250px;
   padding-bottom: 130px;
   background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0) no-repeat center center fixed;
 }
 
-/* For width 600px and larger: */
-@media only screen and (min-device-width: 900px) {
+/* For width 786px and larger: */
+@media only screen and (min-width: 786px) {
    #home {
       background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed;
       padding-top: 330px;
@@ -55,7 +50,7 @@ img {
 }
 
 #portfolio {
-  background-color: #8f8d86c9;
+  background-color: #61574e;
 }
 
 #question {
