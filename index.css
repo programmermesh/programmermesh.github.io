@@ -11,11 +11,8 @@ body {
 
 /* For width smaller than 600px: */
 body {
-    background-image: url('https://dl.dropbox.com/s/i86v0x2oyc8cd9p/medium.jpg?dl=0')no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover; 
+    background-repeat: no-repeat;
+    background-image: url('https://dl.dropbox.com/s/i86v0x2oyc8cd9p/medium.jpg?dl=0'); 
 }
 
 #home {
@@ -24,9 +21,9 @@ body {
 }
 
 /* For width 600px and larger: */
-@media only screen and (min-device-width: 786px) {
+@media only screen and (min-device-width: 600px) {
     body { 
-      background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed;
+      background: url(https://dl.dropbox.com/s/i86v0x2oyc8cd9p/medium.jpg?dl=0) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
