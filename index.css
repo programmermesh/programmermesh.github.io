@@ -14,13 +14,9 @@ body {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   body{
     color: black;
-    background: black;
+    background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0);
   }
-  #home {
-    padding-top: 300px;
-    padding-bottom: 180px;
-    background: url(https://dl.dropbox.com/s/tuy25m5nwwbb66w/8.jpg?dl=0);
-  }
+  
 }
 /* For width 1025px and larger: */
 @media only screen and (min-device-width: 1025px) {
