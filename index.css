@@ -4,14 +4,14 @@ body {
   font-family: 'PT Serif', serif;
 } 
 
-/* For width smaller than 786px: */
+/* For width smaller than 768px: */
 #home {
   padding-top: 250px;
   padding-bottom: 130px;
   background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0) no-repeat center center fixed;
 }
 /* iPad [portrait + landscape] */
-/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   body{
     color: black;
     background: black;
@@ -20,12 +20,13 @@ body {
     padding-top: 300px;
     padding-bottom: 180px;
     background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0);
+    height: 500px;
   }
-}*/
-/* For width 1025px and larger: */
-@media only screen and (min-device-width: 768px) {
+}
+/* For width 1024px and larger: */
+@media only screen and (min-device-width: 1024px) {
    #home {
-      background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0);
+      background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed;
       padding-top: 330px;
       padding-bottom: 270px;
       color: #dd0b0b;
