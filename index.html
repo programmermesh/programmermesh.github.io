@@ -4,12 +4,20 @@
 	<title>Personal Portfolio</title>
   <!-- bootstrap css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light">
-    <a class="navbar-brand" href="#">Kowalatam <br />Web Developer</a>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img class="rounded" src="photo.jpeg" width="40" height="30" class="d-inline-block align-top" alt="">
+      <div class="logo-name">
+        <h1>Elizabeth</h1>
+        <h2>Front-end Developer</h2>
+      </div>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -17,26 +25,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Languages</a>
+          <a class="nav-link" href="#lang">Languages</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav> <!-- Navbar -->
 
   <div class="container-fluid" id="home">
-    <h1>Learn Create Repeat!</h1>
+    <h1>Front-end Developer</h1>
     <hr>
-    <p>With everything man-made modifications there is room for improvement. Take a look around, if you have a suggestion on any of the projects or something you would like me to work on, feel free to contact me:).</p> 
-
+    <h4>Work in progress</h4>
   </div>
 
   <div class="container-fluid" id="lang">
@@ -62,66 +69,67 @@
     </div><!-- row -->
   </div>
   
-<!--   <div class="container-fluid" id="projects">
+  <div class="container-fluid" id="projects">
     <div class="row">
-      <div class="col-lg-4 col-sm- col-12">
-        <a href="https://codepen.io/Kowalatam/full/LjqJmW"  target="_blank" class="thumbnail">
-          <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.LjqJmW.d45012d0-752b-4887-923f-09337bd1848c.png" alt="" />
-          <h3 class="text-center">Pomodoro clock</h3>
-        </a>
+      <div class="col-md-4 col-sm-6">
+        <figure class="figure">
+          <a href="https://codepen.io/Kowalatam/full/LjqJmW"  target="_blank">
+            <img class="figure-img img-fluid rounded" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.LjqJmW.d45012d0-752b-4887-923f-09337bd1848c.png" alt="" />
+          </a>
+          <figcaption class="figure-caption">Pomodoro clock</figcaption>
+        </figure>        
       </div>
 
-      <div class="col-lg-4 col-sm-6 col-12">
-        <a href="https://codepen.io/Kowalatam/full/oeqrxa" class="thumbnail">
-          <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.oeqrxa.cd891996-af75-4a26-8396-3a60fd5f936f.png" alt="" />
-          <h3 class="text-center">Javascript Calculator</h3>
-        </a>
+      <div class="col-md-4 col-sm-6">
+        <figure class="figure">
+          <a href="https://codepen.io/Kowalatam/full/oeqrxa" >
+            <img class="figure-img img-fluid rounded" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.oeqrxa.cd891996-af75-4a26-8396-3a60fd5f936f.png" alt="" />
+          </a>
+          <figcaption class="figure-caption">Javascript Calculator</figcaption>
+        </figure> 
       </div>
-      <div class="col-lg-4 col-sm-6 col-12">
-        <a href="https://codepen.io/Kowalatam/full/przeVX/" class="thumbnail">
-          <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.przeVX.2b36a215-31e0-4011-81b2-99aa4e03b12b.png" alt="" />
-          <h3 class="text-center">Wikipedia viewer</h3>
-        </a>
+      <div class="col-md-4 col-sm-6">
+        <figure class="figure">
+          <a href="https://codepen.io/Kowalatam/full/przeVX/"> 
+            <img class="figure-img img-fluid rounded" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.przeVX.2b36a215-31e0-4011-81b2-99aa4e03b12b.png" alt="" />
+          </a>
+          <figcaption class="figure-caption">Wikipedia viewer</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <figure class="figure">
+          <a href="https://codepen.io/Kowalatam/full/WdVyQM/"> 
+            <img class="figure-img img-fluid rounded" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.WdVyQM.7783ecef-c4e5-49c8-a73b-a0c2b5d3d5e5.png" alt="" />
+          </a>
+          <figcaption class="figure-caption">Pixel Art Maker</figcaption>
+        </figure>
+      </div> 
+      <div class="col-md-4 col-sm-6">
+        <figure class="figure">
+          <a href="https://codepen.io/Kowalatam/full/KvVJPv/"> 
+            <img class="figure-img img-fluid rounded" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.KvVJPv.58ec8721-11e8-4988-ad71-ae92a98b8cad.png" alt="" />
+          </a>
+          <figcaption class="figure-caption">Twitch TV</figcaption>
+        </figure>
       </div>      
-    </div>
-  </div> -->
-
-  <!-- CSS Grid Implentation -->
-  <div class="grid-container" id="projects">
-    <div> 
-        <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.LjqJmW.d45012d0-752b-4887-923f-09337bd1848c.png" alt="" />
-    </div>
-
-    <div> 
-        <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.oeqrxa.cd891996-af75-4a26-8396-3a60fd5f936f.png" alt="" />
-    </div> 
-    
-    <div> 
-        <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.przeVX.2b36a215-31e0-4011-81b2-99aa4e03b12b.png" alt="" />
-    </div> 
-  </div><!--  grid-container -->
+    </div> <!-- row -->
+  </div> <!-- container -->
 
 
-<!-- 
   <div class="container-fluid"  id="contact">
-    <h2>Contact Me</h2>
     <div class="row">
-      <div class="col-lg-4 col-xs-8 ">
-          <button class="btn btn-default btn-lg"><a href="https://www.freecodecamp.com/kowalatam" target="_blank"><i class="fa fa-fire" aria-hidden="true"></i> Freecodecamp</a></button>
+      <div class="col align-self-start">
+          <h2>Contact</h2>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-xs-8">
-          <button class="btn btn-default btn-lg "><a href="https://www.facebook.com/kowalatam.lizzy.3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></button>
+      <div class="col align-self-center">
+          <button type="button" class="btn btn-outline-dark"><a href="https://www.freecodecamp.com/kowalatam" target="_blank"><i class="fa fa-fire" aria-hidden="true"></i> Freecodecamp</a></button>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-xs-8">
-        <button class="btn btn-default btn-lg"><a href="https://www.linkedin.com/in/elizabeth-paul-673850a7/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></button>
+      <div class="col align-self-end">
+        <button type="button" class="btn btn-outline-dark"><a href="https://www.linkedin.com/in/elizabeth-paul-673850a7/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></button>
       </div>
     </div>
   </div>
- -->
+
 
   <!-- bootstrap jQuery, Popper.js and JavaScript plugins  -->
   <script type="text/javascript" src="main.js"></script>

@@ -4,33 +4,23 @@ html, body {
 
 body { 
   color: #f4f0f0;
-  /*font-family: 'PT Serif', serif;*/
+  font-family: 'Lato', sans-serif;
+  font-weight: 900px;
 } 
 
-
-/*navbar*/
-.navbar-light {
-	background-color: #ffffff17;
-}
-/* change the color of active or hovered links */
-.navbar-light .nav-item.active .nav-link,
-.navbar-light .nav-item:hover .nav-link {
-    color: black;
-}
-/*navbar color except brand*/
-.navbar-light .navbar-nav .nav-link {
-    color: #9c9c9cc9;
+.bg-dark {
+    background-color: #b22e2e!important;
 }
 
 /*home*/
 #home {
-	background-color: #333333;
+	background-color: #b22e2e;
 	background-size: cover;
   	background-position: center;
   	background-attachment: fixed;
 	text-align: center;
-	padding-top: 280px;
-	padding-bottom: 280px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 #lang {
@@ -58,19 +48,39 @@ body {
 	height: 30px;
 }
 
-.row {
+/*.row {
 	margin: 0;
 	padding: 0;
-}
+}*/
 
 #projects {
-	background-color: #333333;
-	padding-top: 280px;
-	padding-bottom: 280px;
+	background-color: #343a40;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
-.grid-container {
-	display: grid;
-	grid-template-columns: 100%;
+.logo-name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    padding: 7px 0;
+    line-height: 1.4;
 }
 
+.logo-name h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.logo-name h2 {
+    font-size: 0.8em;
+}
+
+#contact {
+	background-color: white;
+}
+
+#contact h2 {
+	color: black;
+}
