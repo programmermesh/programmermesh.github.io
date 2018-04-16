@@ -84,3 +84,8 @@ body {
 #contact h2 {
 	color: black;
 }
+
+.figure-caption {
+    font-size: 100%;
+    color: #fefefe;
+}
