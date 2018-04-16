@@ -1,91 +1,132 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ine Interior Design</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link rel="stylesheet" href="index.css">
+	<title>Personal Portfolio</title>
+  <!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+    <a class="navbar-brand" href="#">Kowalatam</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      <a class="navbar-brand" href="#home">Ine Interior Design</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-nav-demo">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Languages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
       </ul>
     </div>
-  </div>
-</nav>
+  </nav> <!-- Navbar -->
 
-
-<div id="home">
-  <div class="content">
-    <h2>INE ONYEMAECHI</h2>
-    <hr/>
-    <h3>Interior Design / Homes / Events</h3>
-  </div>
-</div>
-
-
-<div id="portfolio">
-    <h2 id="question">WHAT CAN I DO?</h2>
-    <h3>See for yourself</h3>
+  <div class="container-fluid" id="home">
+    <h1>Learn Create Repeat!</h1>
     <hr>
-    <div id='scrolly'>  
-      <img src='https://dl.dropbox.com/s/eebsitm7j5dwyz4/9.jpg?dl=0'></img>      
-      <img src='https://dl.dropbox.com/s/tuy25m5nwwbb66w/8.jpg?dl=0'></img>
-      <img src='https://dl.dropbox.com/s/iwu1lsytc1l9abv/2.jpg?dl=0'></img>
-      <img src='https://dl.dropbox.com/s/krcv162xlkpifhs/4.jpg?dl=0'></img>
-      <img src='https://dl.dropbox.com/s/tplhsiddc3lfxja/3.jpg?dl=0'></img>
-      <img src='https://dl.dropbox.com/s/66o7a9v1szlrlxs/6.jpg?dl=0'></img>
-      <img src='https://dl.dropbox.com/s/wufm8frql5rsf4t/5.jpg?dl=0'></img>
-      <img src='https://dl.dropbox.com/s/0bvpyl1nd0rmq60/7.jpg?dl=0'></img>
-    </div>
-</div>
+    <p>With everything man-made modifications there is room for improvement. Take a look around, if you have a suggestion on any of the projects or something you would like me to work on, feel free to contact me:).</p> 
 
+  </div>
 
-<div class="container-fluid" id="about">
+  <div class="container-fluid" id="lang">
+    <div class="row"> 
+      <div class="col-md-4 col-" id="progress-bars">
+        <h2>What I can offer...</h2>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">HTML5</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">jQuery</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">BootStrap</div>
+        </div> 
+      </div> <!-- progress-bar -->
+    </div><!-- row -->
+  </div>
+  
+<!--   <div class="container-fluid" id="projects">
     <div class="row">
-        <div class="col-md-4 col-xs-12">
-            <img src='https://dl.dropbox.com/s/jmhbe959g285ro9/1.jpg?dl=0' id="aboutImage"></img>
-        </div>
-        <div class="col-md-4 col-xs-12">
-            <p>Discovery of my hidden talent. So that how pregnancy brought out the interior decor talent in me, and the result is here for you to see and rate me, kids room makeover done by yours truly.</p>
-            <p>It started when I discovered I was having another Prince, different thoughts started running through my head, what do? I asked myself, knowing that I needed to turn around Kachi's room to accommodate his brother and After much thinking I came with the KK Room.</p>
-        </div>
-        <div class="col-md-2 col-xs-12">
-            <h3>Contact Me</h3>
-            <button class="btn btn-default btn-lg "><a href="https://www.facebook.com/profile.php?id=100000485127849" target="_blank"> <i class="fab fa-facebook-f"></i> </a></button>
-            <button class="btn btn-default btn-lg "><a href="https://www.instagram.com/ine_onyemaechi/" target="_blank"> <i class="fab fa-instagram"></i> </a></button>
-        </div>
+      <div class="col-lg-4 col-sm- col-12">
+        <a href="https://codepen.io/Kowalatam/full/LjqJmW"  target="_blank" class="thumbnail">
+          <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.LjqJmW.d45012d0-752b-4887-923f-09337bd1848c.png" alt="" />
+          <h3 class="text-center">Pomodoro clock</h3>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 col-12">
+        <a href="https://codepen.io/Kowalatam/full/oeqrxa" class="thumbnail">
+          <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.oeqrxa.cd891996-af75-4a26-8396-3a60fd5f936f.png" alt="" />
+          <h3 class="text-center">Javascript Calculator</h3>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-12">
+        <a href="https://codepen.io/Kowalatam/full/przeVX/" class="thumbnail">
+          <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.przeVX.2b36a215-31e0-4011-81b2-99aa4e03b12b.png" alt="" />
+          <h3 class="text-center">Wikipedia viewer</h3>
+        </a>
+      </div>      
     </div>
-</div>
+  </div> -->
+
+  <!-- CSS Grid Implentation -->
+  <div class="grid-container" id="projects">
+    <div> 
+        <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.LjqJmW.d45012d0-752b-4887-923f-09337bd1848c.png" alt="" />
+    </div>
+
+    <div> 
+        <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.oeqrxa.cd891996-af75-4a26-8396-3a60fd5f936f.png" alt="" />
+    </div> 
+    
+    <div> 
+        <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.przeVX.2b36a215-31e0-4011-81b2-99aa4e03b12b.png" alt="" />
+    </div> 
+  </div><!--  grid-container -->
 
 
-<footer>
-  <div class="container">
-    <div class="text-center">
-      <h4>Made with <i class="fas fa-heart"></i> by <a href="https://codepen.io/Kowalatam/full/bWZXqO">Kowa</a></h4>
+<!-- 
+  <div class="container-fluid"  id="contact">
+    <h2>Contact Me</h2>
+    <div class="row">
+      <div class="col-lg-4 col-xs-8 ">
+          <button class="btn btn-default btn-lg"><a href="https://www.freecodecamp.com/kowalatam" target="_blank"><i class="fa fa-fire" aria-hidden="true"></i> Freecodecamp</a></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-xs-8">
+          <button class="btn btn-default btn-lg "><a href="https://www.facebook.com/kowalatam.lizzy.3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-xs-8">
+        <button class="btn btn-default btn-lg"><a href="https://www.linkedin.com/in/elizabeth-paul-673850a7/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></button>
+      </div>
     </div>
   </div>
-</footer>
+ -->
 
-<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- bootstrap jQuery, Popper.js and JavaScript plugins  -->
+  <script type="text/javascript" src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
