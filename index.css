@@ -1,112 +1,76 @@
+html, body {
+	height: 100%;
+}
+
 body { 
-  text-align: center;
   color: #f4f0f0;
-  font-family: 'PT Serif', serif;
+  /*font-family: 'PT Serif', serif;*/
 } 
 
-/* For width smaller than 768px: */
-#home {
-  padding-top: 250px;
-  padding-bottom: 130px;
-  background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0) no-repeat center center fixed;
+
+/*navbar*/
+.navbar-light {
+	background-color: #ffffff17;
 }
-/* iPad [portrait + landscape] */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  body{
+/* change the color of active or hovered links */
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:hover .nav-link {
     color: black;
-    background: black;
-  }
-  #home {
-    padding-top: 300px;
-    padding-bottom: 180px;
-    background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0);
-  }
 }
-/* For width 1024px and larger: */
-@media only screen and (min-device-width: 1024px) {
-   #home {
-      background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed;
-      padding-top: 330px;
-      padding-bottom: 270px;
-      color: #dd0b0b;
-    }
+/*navbar color except brand*/
+.navbar-light .navbar-nav .nav-link {
+    color: #9c9c9cc9;
 }
 
-#scrolly {
-  width: 98%;
-  height: 400px;
-  overflow: auto;
-  overflow-y: hidden;
-  margin: 0 auto;
-  white-space: nowrap;
+/*home*/
+#home {
+	background-color: #333333;
+	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+	text-align: center;
+	padding-top: 280px;
+	padding-bottom: 280px;
 }
 
-img {
-  height: 380px;
-  margin-right: 20px;
-  margin-left: 10px;
-  display: inline;
+#lang {
+	background-color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: black;
+	text-align: center;
+}
+#progress-bars {
+	width: 400px;
+	height: 500px;
+	background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #a3c9ba;
+    box-shadow: 0px 0px 0px 10px #ffffff;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 40px 40px 40px 40px;
+    margin-left: 100px;
 }
 
-
-.navbar-inverse {
-  border-color: #080808;
-  padding: 10px 10px;
-  background: #ffffff;
-  text-transform: uppercase;
+.progress {
+	margin-top: 25px;
+	height: 30px;
 }
 
-.navbar-inverse .navbar-brand {
-    color: #adaaaa;
+.row {
+	margin: 0;
+	padding: 0;
 }
 
-#portfolio {
-  background-color: #61574e;
+#projects {
+	background-color: #333333;
+	padding-top: 280px;
+	padding-bottom: 280px;
 }
 
-#question {
-  padding: 100px 0 25px 0;
+.grid-container {
+	display: grid;
+	grid-template-columns: 100%;
 }
 
-p { 
-  text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#about {
-  background: white;
-  padding: 100px 0 100px 0;
-  margin-top: 20px;
-  color: #9f9e9e;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  display: block;
-}
-
-#aboutImage {
-  padding-top: 0;
-}
-
-p:first-of-type {
-  padding-top: 20px;
-}
-
-a:hover { 
-  color: black !important; 
-}
-
-.navbar-toggle {
-    background-color: #646f6f;
-}
-
-.row { 
-  margin: 0; 
-  padding: 0 
-}
-
-footer {
-  color: #333737;
-}
