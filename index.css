@@ -5,7 +5,7 @@ html, body {
 body { 
   color: #f4f0f0;
   font-family: 'Lato', sans-serif;
-  font-weight: 900px;
+  font-weight: 900px!important;
 } 
 
 .bg-dark {
