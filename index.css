@@ -48,10 +48,9 @@ body {
 	height: 30px;
 }
 
-/*.row {
-	margin: 0;
-	padding: 0;
-}*/
+.navbar {
+	font-weight: 900;
+}
 
 #projects {
 	background-color: #2b4e75;
