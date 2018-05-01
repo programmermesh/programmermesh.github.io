@@ -54,9 +54,13 @@ body {
 }*/
 
 #projects {
-	background-color: #2b4e75;
+	background-color: #5656561a;
 	padding-top: 80px;
 	padding-bottom: 80px;
+}
+
+.figure-caption {
+    color: #434343!important;
 }
 
 .logo-name {
@@ -79,6 +83,7 @@ body {
 
 #contact {
 	background-color: white;
+  padding-top: 10px;
 }
 
 #contact h2 {
@@ -89,5 +94,22 @@ body {
     font-size: 100%;
     color: #fefefe;
 }
+
+#contact div {
+    padding-left: 42%;
+    color: #4d4d4d;
+}
+
+#contact p {
+    text-align: center;
+    color: #4d4d4d;
+}
+
+#contact a {
+    padding-left: 2%;
+    color: #4d4d4d;
+}
+
+
 
 
