@@ -1,204 +1,216 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Personal Portfolio</title>
-  <meta charset="UTF-8">
-  <!-- bootstrap css -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
-      <img class="rounded" src="icon-user.png" width="30" height="30" class="d-inline-block align-top" alt="">
-      <div class="logo-name">
-        <h1>Elizabeth</h1>
-        <h2>Front-end Developer</h2>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+      integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Serif+Pro"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kowalatam</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main-navigation">
+        <!-- Header -->
+        <section class="picture-name">
+          <img
+            src="https://media.licdn.com/dms/image/C5603AQFNxtDceLjLYg/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=4owWGm4Fgh813Olerd484mgi4ab95en7xYKijlnox1k"
+            alt="Image of ELizabeth"
+          />
+          <h1>ELizabeth Napoleon Paul</h1>
+          <p>HTML5 | CSS | Javascript | jQuery | Bootstrap | Reactjs</p>
+        </section>
+        <!-- Nav -->
+        <nav class="main-nav">
+          <ul>
+            <!-- <li><a href="#technologies">Technologies</a></li> -->
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#about">About Me</a></li>
+          </ul>
+        </nav>
+        <!-- Social -->
+        <section class="social">
+          <a href="https://www.linkedin.com/in/kowalatam-paul/" target="_blank"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+          <a href="https://github.com/Kowalatam" target="_blank"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+          <a href="https://twitter.com/kowalatam" target="_blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="https://codepen.io/Kowalatam/" target="_blank"
+            ><i class="fab fa-codepen fa-2x"></i
+          ></a>
+        </section>
       </div>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- .main-navigation -->
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav> <!-- Navbar -->
-
-  <div class="container-fluid" id="home">
-    <div id="landing-header"> 
-      <h1>Front-end Developer</h1>
-      <hr>
-      <h4>Work in progress</h4>
-    </div>
-    
-
-    <ul class="slideshow">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div>
-
-  <div class="container-fluid" id="lang">
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Worked with</h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img src="images/html.png" alt="">
-            <img src="images/css.png" alt="">
-            <img src="images/javascript.png" alt="">
-            <img src="images/jquery.gif" alt="">
-            <img src="images/bootstrap.png" alt="">
+       <!-- Main -->
+      <div class="main-section">
+        <!-- Projects -->
+        <h2>Projects</h2>
+          <hr />
+        <section class="projects" id="projects">
+          
+          <div class="project">
+            <figure>
+              <div class="img">
+                <a href="https://kowalatam.github.io/MarkDown/">
+                    <img src="./images/markdown.JPG" alt="Markdown previewer" />
+                </a>
+              </div>
+              <div class="content">
+                <p>Markdown previewer made with Reactjs</p>
+                <button class="git-btn">
+                  <a href="https://github.com/Kowalatam/MarkDown" target="_blank"
+                    >Github Repo</a
+                  >
+                </button>
+              </div>
+            </figure>
           </div>
-        </div>
-      </div>
-      <div class="col-md-6 node">
-        <h2>Knowledgable on</h2>
-        <div class="row">
-          <div class="col-md-12">
-            <img src="images/nodejs.png" alt="">
-            <img src="images/express.png" alt="">
-            <img src="images/mongodb.png" alt="">
+          <div class="project">
+            <figure>
+              <div class="img">
+                  <a href="https://kowalatam.github.io/RandomQuoteReact/" target="_blank">
+                    <img
+                      src="./images/random-quote.JPG"
+                      alt="Random quote generator"
+                    />
+                  </a>
+              </div>
+              
+              <div class="content">
+                <p>Random quote generator made with Reactjs</p>
+                <button class="git-btn">
+                  <a href="https://github.com/Kowalatam/RandomQuoteReact">
+                    Github Repo</a
+                  >
+                </button>
+              </div>
+            </figure>
           </div>
-        </div>
+
+          <div class="project">
+            <figure>
+              <div class="img">
+                  <a href="https://kowalatam.github.io/Calculator/" target="_blank">
+                    <img src="./images/calculator.JPG" alt="Calculator" />
+                  </a>
+              </div>
+              
+              <div class="content">
+                <p>Calculator made with jQuery</p>
+                <button class="git-btn">
+                  <a href="https://github.com/Kowalatam/Calculator"
+                    >Github Repo</a
+                  >
+                </button>
+              </div>
+            </figure>
+          </div>
+
+          <div class="project">
+            <figure>
+              <div class="img">
+                  <a href="https://kowalatam.github.io/Pomodoro_Clock/" target="_blank">
+                    <img src="./images/pomodoro-clock.jpg" alt="Pomodoro Clock" />
+                  </a>
+              </div>
+              
+              <div class="content">
+                <p>Pomodoro timer made with jQuery</p>
+                <button class="git-btn">
+                  <a href="https://github.com/Kowalatam/Pomodoro_Clock"
+                    >Github Repo</a
+                  >
+                </button>
+              </div>
+            </figure>
+          </div>
+        </section>
+
+        <!-- Experiences -->
+        <h2>Volunteer Experience</h2>
+          <hr />
+        <section class="experiences" id="experiences">
+          
+          <div class="project">
+            <figure>
+              <div class="img">
+                  <a href="https://mybabys1stmoments.com" target="_blank">
+                    <img
+                      src="./images/mybabys1stmoments.JPG"
+                      alt="My baby's 1st momemts"
+                    />
+                  </a>
+              </div>
+              
+              <div class="content">
+                <p>
+                  Photography company website/blog created with wordpress
+                  builder elementor.
+                </p>
+                <p>
+                  Currently in handling SEO and monitoring search traffic with
+                  Google Search Console
+                </p>
+              </div>
+            </figure>
+          </div>
+          <div class="project">
+            <figure>
+              <div class="img">
+                  <a href="https://kickstartaalborg.dk" target="_blank">
+                    <img
+                      src="./images/kickstartaalborg.JPG"
+                      alt="kickstartaalborg"
+                    />
+                  </a>
+              </div>
+              
+              <div class="content">
+                <p>
+                  Site created with wordpress for a non-profit organization
+                  kickstartaalborg.
+                </p>
+                <p>
+                  Current task include maintainace and update of events
+                </p>
+              </div>
+            </figure>
+          </div>
+        </section>
+
+        <!-- About -->
+        <section class="about" id="about">
+          <h2>About Me</h2>
+          <hr />
+          <p>
+            I have a background in Mechanical engineering, I am actively looking
+            for opportunities to apply and develop the skills I have obtained in
+            a front end developer role.
+          </p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+          <p>Kowalatam &copy; 2019</p>
+        </footer>
       </div>
-    </div> <!-- row -->
-  </div> <!-- container -->  
-
-  <div class="container-fluid project" id="projects">
-    <div class="headings">
-      <h2>HMTL, CSS & JavaScript</h2>
     </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <a href="https://codepen.io/Kowalatam/full/LjqJmW"  target="_blank">
-          <figure class="figure view zoom">
-            <img class="figure-img img-fluid rounded" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.LjqJmW.d45012d0-752b-4887-923f-09337bd1848c.png" alt="" />
-            <figcaption class="figure-caption text-center">Pomodoro clock</figcaption>
-          </figure>
-        </a>        
-      </div>
 
-      <div class="col-md-4 col-sm-6">
-        <a href="https://codepen.io/Kowalatam/full/oeqrxa" >
-          <figure class="figure view zoom">
-            <img id="calc" class="figure-img img-fluid rounded" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.oeqrxa.cd891996-af75-4a26-8396-3a60fd5f936f.png" alt="" />
-            <figcaption class="figure-caption text-center">Javascript Calculator</figcaption>
-          </figure>        
-        </a> 
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <a href="https://codepen.io/Kowalatam/full/przeVX/"> 
-          <figure class="figure view zoom">
-            <img class="figure-img img-fluid rounded" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.przeVX.2b36a215-31e0-4011-81b2-99aa4e03b12b.png" alt="" />
-            <figcaption class="figure-caption text-center">Wikipedia viewer</figcaption>
-        </figure>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <a href="https://codepen.io/Kowalatam/full/WdVyQM/"> 
-          <figure class="figure view zoom">
-            <img class="figure-img img-fluid rounded" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.WdVyQM.7783ecef-c4e5-49c8-a73b-a0c2b5d3d5e5.png" alt="" />
-            <figcaption class="figure-caption text-center">Pixel Art Maker</figcaption>
-          </figure>        
-        </a>
-      </div> 
-      <div class="col-md-4 col-sm-6">
-        <a href="https://codepen.io/Kowalatam/full/KvVJPv/"> 
-          <figure class="figure view zoom">
-            <img class="figure-img img-fluid rounded" src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1258926.KvVJPv.58ec8721-11e8-4988-ad71-ae92a98b8cad.png" alt="" />
-            <figcaption class="figure-caption text-center">Twitch TV</figcaption>
-          </figure>        
-        </a>
-      </div>      
-    </div> <!-- row -->
-  </div> <!-- container -->
-
-  <div class="container-fluid project">
-    <div class="headings">
-      <h2>NodeJS, ExpressJS, MongoDB & Authentication</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-8 offset-md-2 col-sm-12">
-        <a href="https://afternoon-sierra-51999.herokuapp.com/campgrounds"  target="_blank">
-          <figure class="figure view zoom">
-            <img class="figure-img img-fluid rounded" src="images/yelpcamp-image.JPG" alt="YelpCamp" />
-            <figcaption class="figure-caption text-center">YelpCamp Code Along with <a href="https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview">Colt Steele</a></figcaption>
-          </figure>
-        </a>        
-      </div>      
-    </div> <!-- row -->
-  </div> <!-- container -->
-  
-  <div class="container-fluid project">
-    <div class="headings">
-      <h2>Wordpress</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-8 offset-md-2 col-sm-12">
-        <a href="http://omofuomaagharite.com/"  target="_blank">
-          <figure class="figure view zoom">
-            <img class="figure-img img-fluid rounded" src="images/wordpress-image.JPG" alt="Mobile Photography Website" />
-            <figcaption class="figure-caption text-center"><a href="http://omofuomaagharite.com/">Mobile Photography Website</a></figcaption>
-          </figure>
-        </a>        
-      </div>      
-    </div> <!-- row -->
-  </div> <!-- container -->
-
-
-  <div class="container-fluid"  id="contact">
-    <div>
-      <a href="https://www.freecodecamp.com/kowalatam" target="_blank"><i class="fa fa-fire" aria-hidden="true"></i> Freecodecamp</a>
-      <a href="https://www.linkedin.com/in/elizabeth-paul-673850a7/" target="_blank">   <i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
-    </div>
-    <p>&copy; Elizabeth Paul</p>
-  </div>
-
-
-  <!-- bootstrap jQuery, Popper.js and JavaScript plugins  -->
-  <script type="text/javascript" src="main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <!-- Wrapper -->
+  </body>
 </html>
-
-
-<!-- <div class="col-md-4 col-sm-6" id="progress-bars">
-        <h2></h2>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">HTML5</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">jQuery</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">BootStrap</div>
-        </div> 
-      </div>  --><!-- progress-bar -->
