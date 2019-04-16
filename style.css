@@ -55,6 +55,7 @@ hr {
 .picture-name h1 {
     font-family: 'lato';
     text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .main-nav ul {
