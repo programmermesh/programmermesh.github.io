@@ -50,6 +50,7 @@ hr {
 
 .picture-name img {
     border-radius: 50%;
+    
 }
 
 .picture-name h1 {
@@ -75,9 +76,17 @@ hr {
     color: var(--dark)
 }
 
-.social a {
-    padding-left: 20px; 
+.social {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    width: 70%;
+    padding-left: 15%;
 }
+
+/* .social a {
+    padding-left: 20px; 
+} */
 
 .fa-twitter , .fa-linkedin {
     color: #1da1f2;
@@ -85,15 +94,6 @@ hr {
 
 
 /* Main section */
-.tech-icons {
-    display: grid;
-    grid-column-gap: 10%;
-    grid-row-gap: 25%;
-    grid-template-columns: repeat(3, 15%);
-    padding-left: 27.5%;
-}
-
-/*Main Section */
 .main-section {
     background: #FFFCF7;
     color: var(--dark);
@@ -169,11 +169,13 @@ footer p {  /* remove white space under footer */
         box-sizing: border-box;
     } 
 
-    /*figure {
-        grid-template-areas: 
-        ' img img '
-        ' content content';
-    }*/
+    .picture-name img {
+        width: 70%;
+    } 
+
+    h1 {
+        font-size: 1.8rem;
+    }    
 }
 
 @media (max-width: 600px) {
@@ -197,7 +199,12 @@ footer p {  /* remove white space under footer */
 
     .main-section {
         grid-area: main-section;
+        padding-top: 2rem;
     }
+
+    .picture-name img {
+        width: 40%;
+    } 
     
     h2 {
         padding-top: 0; 
