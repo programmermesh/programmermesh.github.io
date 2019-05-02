@@ -139,16 +139,17 @@ figure img {
 
 
 /*Experience*/
-.experiences {
+/*.experiences {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
+}*/
 
 /* About */
 
 .about p {
     padding-left: 10%;
     padding-right: 10%;
+    line-height: 1.9;
 }
 
 /* Footer */
