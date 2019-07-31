@@ -6,6 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="I am expert frontend developer, data analyst, research scholar with years of experience, passionate to develop outstanding design." />
     <meta name="keywords" content="Meshach Joseph" />
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+</style>
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
@@ -13,13 +33,6 @@
       crossorigin="anonymous"
     >
     </script>
-    <style>
-.zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
-}
-</style>
     <link
       href="https://fonts.googleapis.com/css?family=Source+Serif+Pro"
       rel="stylesheet"
@@ -52,7 +65,10 @@ with proven years of experience</p>
         </section>
       </div>
       <!-- .main-navigation -->
-
+           <h1>Zoom on Hover</h1>
+<p>Hover over the div element.</p>
+  
+<div class="zoom"></div>
        <!-- Main -->
       <div class="main-section">
         <section class="skills_interest" id="skills">
